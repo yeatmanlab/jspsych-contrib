@@ -85,7 +85,7 @@ class HtmlSwipeResponsePlugin implements JsPsychPlugin<Info> {
 
   trial(display_element: HTMLElement, trial: TrialType<Info>) {
     // display stimulus
-    let new_html = '<div id="jspsych-html-swipe-response-stimulus">' + trial.stimulus + "</div>";
+    let new_html = '<div id="div id="jspsych-html-swipe-response-stimulus-container"><div id="jspsych-html-swipe-response-stimulus">' + trial.stimulus + "</div> </div>";
 
     // add prompt
     if (trial.prompt !== null) {
