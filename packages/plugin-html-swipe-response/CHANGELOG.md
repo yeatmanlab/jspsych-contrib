@@ -1,5 +1,11 @@
 # @jspsych-contrib/plugin-html-swipe-response
 
+## 1.1.3
+
+### Patch Changes
+
+- [`f883a58cd03e76aa77d7e962db20f4a69db13fc8`](https://github.com/jspsych/jspsych-contrib/commit/f883a58cd03e76aa77d7e962db20f4a69db13fc8) Thanks [@Emily-ejag](https://github.com/Emily-ejag)! - added a container div around stimulus div
+
 ## 1.1.2
 
 ### Patch Changes
